@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Grechen+Fuemen&family=Moon+Dance&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grechen+Fuemen&family=Moon+Dance&family=Pacifico&display=swap');
+
+p {
+    font-family: 'Moon Dance', cursive;
+}
+h1 {
+    font-family: 'Pacifico', cursive;
+}
