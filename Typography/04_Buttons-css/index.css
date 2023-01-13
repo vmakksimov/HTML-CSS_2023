@@ -1,0 +1,58 @@
+@import 'https://use.fontawesome.com/releases/v5.6.3/css/all.cs';
+@import url('http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css');
+
+body {
+    background-color: rgb(146, 146, 146)
+}
+
+.button {
+    border-radius: 20px;
+    border: 1px solid black;
+    padding: 5px 8px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.abutton{
+    border-radius: 20px;
+    border: 1px solid black;
+    padding: 4px 6px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.filled-buttons .abutton, .download-buttons .abutton{
+    
+    background-color: rgb(51, 51, 51);
+    color: white;
+    border: 1px solid black;
+}
+
+
+.normal-buttons .button {
+    background-color: rgb(146, 146, 146)
+}
+
+
+.filled-buttons .button, .download-buttons .button{
+    
+    background-color: rgb(51, 51, 51);
+    color: white;
+    border: 1px solid black;
+}
+
+i {
+    margin-right: 5px;
+}
+
+.hover:hover{
+    background: green;
+    border: 1px solid green;
+}
+
+.normal-buttons, .filled-buttons, .download-buttons{
+    margin: 15px;
+}
+
+
+
