@@ -4,6 +4,7 @@ html {
 
 body {
     background-color:  rgb(238, 238, 238);
+    
 
 }
 
@@ -15,21 +16,23 @@ aside {
     width: 30%;
     padding-left: 15px;
     margin-left: 15px;
-    float: right;
+   
+    vertical-align: top;
+
 }
-article {
+article, .image {
     width: 65%;
     margin-left: 40px;
     margin-top: 40px;
     margin-bottom: 30px;
 }
 
-img {
-    width: 70%;
+aside, article {
+    display: inline-block;
 }
 
-.image {
-    margin-top: 30px;
-    margin-bottom: 30px;
+img {
+    width: 65%;
 }
+
 
