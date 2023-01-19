@@ -20,7 +20,7 @@ aside {
     vertical-align: top;
 
 }
-article, .image {
+article {
     width: 65%;
     margin-left: 40px;
     margin-top: 40px;
@@ -35,4 +35,8 @@ img {
     width: 65%;
 }
 
+.image {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
 
