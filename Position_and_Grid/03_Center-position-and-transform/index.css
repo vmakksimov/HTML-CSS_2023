@@ -1,0 +1,53 @@
+
+body {
+    background-color: rgb(238, 238, 238);
+    position: relative;
+    height: 120vh;
+}
+
+body section.card {
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 5%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 30%;
+    border-radius: 5px;
+    box-shadow: 3px;
+  
+}
+
+.button {
+    background-color: rgb(0, 153, 0);
+    color: white;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid rgb(0, 153, 0);
+    position: absolute;
+    right: 0;
+    width: 95px;
+    transform: translate(-50%, 30%);
+   
+}
+
+
+
+img {
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    
+}
+
+h1, p {
+    padding-left: 25px;
+    padding-right: 40px;
+    font-family: Georgia, serif;
+    font-size: 1.2em;
+    margin-top: 30px;
+}
+
+
+
+
