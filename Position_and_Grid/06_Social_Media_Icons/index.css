@@ -1,0 +1,46 @@
+@import url('http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css');
+
+ul {
+    display: inline-block;
+}
+
+li {
+    list-style: none;
+    padding: 5px;
+    display: inline-block;
+    
+}
+
+a {
+    border-radius: 50%;
+    background-color: lightgray;
+    padding: 10px;
+}
+
+.fa-facebook-official:hover {
+    color: #4267B2;
+    cursor: pointer;
+   
+}
+
+.fa-twitter:hover{
+    color: #1DA1F2;
+    cursor: pointer;
+ 
+}
+
+.fa-google-plus-official:hover{
+    color: #DB4437;
+    cursor: pointer;
+    
+}
+
+.fa-linkedin-square:hover{
+    color: #0077b5;
+    cursor: pointer;
+}
+
+.fa-instagram:hover{
+    color: rgb(174, 220, 248);
+    cursor: pointer;
+}
