@@ -1,0 +1,33 @@
+
+
+li {
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    padding: 40px 15px 40px 15px;
+    border: 10px solid black;
+    margin: 60px;
+    box-shadow: inset 0px 0px 8px 1px;
+}
+
+ul {
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+
+
+body {
+    background-color: lightgray;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+body > section > ul > li:nth-child(2) > img{
+    padding: 10px;
+}
