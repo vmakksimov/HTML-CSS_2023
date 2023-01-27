@@ -1,0 +1,6 @@
+@media all and (min-width:600px) {
+    .mq-widt span::after {
+        content: 'View Port Width is larger than 600px';
+        color: greenyellow;
+    }
+}
