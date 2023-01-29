@@ -1,0 +1,59 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Grechen+Fuemen&family=Montserrat+Subrayada&family=Moon+Dance&family=Pacifico&family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grechen+Fuemen&family=Montserrat+Subrayada&family=Montserrat:wght@300&family=Moon+Dance&family=Pacifico&family=Poppins:wght@100&display=swap');
+
+body {
+    margin: 0px;
+}
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+
+}
+.auto {
+    display: flex;
+    margin: 150px auto;
+    width: 1070px;
+}
+h3, h4 {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 0px;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 900;
+    
+}
+
+.benefits {
+    list-style-type: none;
+    padding-left: 0px;
+    padding-top: 20px;
+}
+
+.benefits .items img, .benefits img {
+    max-width: 60px;
+}
+
+.items {
+    display: flex;
+    align-items: center;
+}
+
+
+
+h4 {
+    margin-bottom: 0px;
+}
+
+article.benefits-text > p {
+    margin-top: 1px;
+}
+
+.auto-content {
+    margin: 9px 50px;
+}
