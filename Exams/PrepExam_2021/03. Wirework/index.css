@@ -194,3 +194,7 @@ body {
     font-size: 15px;
     color: #9FD6C5;
 }
+
+.content strong {
+    text-decoration: underline;
+}
