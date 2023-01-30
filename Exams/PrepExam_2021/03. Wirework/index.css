@@ -188,3 +188,9 @@ body {
     padding: 70px 90px;
 }
 
+.footer-section strong {
+    letter-spacing: 2px;
+    font-weight: lighter;
+    font-size: 15px;
+    color: #9FD6C5;
+}
