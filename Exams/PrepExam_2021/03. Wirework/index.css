@@ -198,3 +198,7 @@ body {
 .content strong {
     text-decoration: underline;
 }
+
+.content b {
+    color: #F5C7BD;
+}
