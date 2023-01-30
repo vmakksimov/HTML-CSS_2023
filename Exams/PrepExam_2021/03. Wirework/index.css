@@ -1,3 +1,5 @@
+@import url('http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css');
+
 html {
     font-family: Helvetica, sans-serif;
 }
@@ -91,3 +93,114 @@ body {
     height: 100%;
     object-fit: cover;
 }
+
+.benefits {
+    background-color: #383838;
+}
+
+.benefits-items {
+    display: flex;
+}
+
+.benefits-content-first{
+    margin: 50px;
+    text-align: center;
+    flex-basis: 20%;
+}
+
+.benefits-content-first i {
+    font-size: 60px;
+    padding: 30px;
+    background-color: #E24E2A;
+    margin: 50px 50px 5px 50px;
+    color: #FFFFFF;
+}
+
+.benefits-content-first-p{
+    font-size: 25px;
+    color: white;
+}
+
+.benefits-content-first-p::after{
+    content: "";
+    width: 2px;
+    background-color: #6A6F6C;
+}
+
+.benefits-content-second-p{
+    color: #6A6F6C;
+    font-size: 15px;
+    line-height: 20px;
+    border-top: 2px solid #414241;
+    padding-top: 20px;
+}
+
+.information-content h2 {
+    font-weight: 545;
+    color: #414241;
+    margin: 2px;
+    font-size: 40px;
+}
+
+.information-content p {
+    font-size: 20px;
+    color: #A09E9C;
+    margin: 0px 0px 50px;
+    
+}
+
+.information {
+    padding: 80px;
+}
+
+.information-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.information-content .information-button a {
+    background-color: #1B9772;
+    text-decoration: none;
+    color: white;
+    letter-spacing: 1px;
+    font-weight: 550;
+    padding: 20px 60px;
+}
+
+.benefits-content-second-p-no-border{
+    color: #6A6F6C;
+    font-size: 17px;
+    line-height: 30px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+
+    padding: 30px 0px;
+}
+
+.footer-content {
+    display: flex;
+    align-content: center;
+    background-color: #1B9772;
+    color: #60B597;
+    justify-content: center;
+    padding: 70px 90px;
+}
+
+.footer-section strong {
+    letter-spacing: 2px;
+    font-weight: lighter;
+    font-size: 15px;
+    color: #9FD6C5;
+}
+
+.content strong {
+    text-decoration: underline;
+}
+
+.content b {
+    columns: #F5C7BD;
+}
+
+
+
