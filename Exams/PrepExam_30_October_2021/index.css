@@ -61,3 +61,13 @@ html {
     font-weight: lighter;
     color: #5C6772;
 }
+
+.content p {
+    font-family: Helvetica, sans-serif;
+    line-height: 2;
+    /* display: flex; */
+    margin-top: 0px;
+    margin-bottom: 40px;
+    width: 60%;
+    color: #5C6772;
+}
