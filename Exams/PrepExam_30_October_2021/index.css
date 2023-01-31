@@ -40,3 +40,10 @@ html {
     align-items: flex-end;
     margin: 0px 70px 0px 70px;
 }
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 200px 70px;
+}
