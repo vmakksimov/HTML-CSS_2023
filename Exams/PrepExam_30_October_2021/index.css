@@ -55,3 +55,9 @@ html {
     font-family: Helvetica, sans-serif;
     color: #5C6772;
 }
+
+.content h1 {
+    font-size: 30px;
+    font-weight: lighter;
+    color: #5C6772;
+}
