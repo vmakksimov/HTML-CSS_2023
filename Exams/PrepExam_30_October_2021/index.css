@@ -34,3 +34,9 @@ html {
     border-radius: 3px;
     font-weight: 600;
 }
+
+.content-img {
+    display: flex;
+    align-items: flex-end;
+    margin: 0px 70px 0px 70px;
+}
