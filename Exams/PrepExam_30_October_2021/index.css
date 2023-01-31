@@ -47,3 +47,11 @@ html {
     justify-content: space-evenly;
     margin: 200px 70px;
 }
+
+.content h5 {
+    margin-bottom: 0px;
+    font-size: 10px;
+    font-weight: 700;
+    font-family: Helvetica, sans-serif;
+    color: #5C6772;
+}
