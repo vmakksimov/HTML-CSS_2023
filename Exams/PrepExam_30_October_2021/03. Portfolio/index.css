@@ -73,3 +73,37 @@ padding: 5px;
     font-size: 50px;
     margin: 50px 0px 20px 100px;
 }
+
+.first-text h1 span, .second-text h1 span {
+    font-weight: 300;
+}
+
+.first-text blockquote {
+    border-left: 2px solid black;
+    height: 60px;
+    margin: 0px;
+}
+
+.first-text p {
+    font-size: 17px;
+    padding: 0px;
+    margin: 0px 0px 30px 0px;
+    font-style: italic;
+    font-family: 'Raleway', sans-serif;
+}
+.second-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.second-img {
+    padding: 40px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.second-img {
+    display: flex;
+    align-items: center;
+}
