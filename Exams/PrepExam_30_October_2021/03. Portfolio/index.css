@@ -38,3 +38,14 @@ align-items: stretch;
 padding: 5px;
 }
 
+.first-section, .second-section, .third-section {
+    background-color: #EFEFEF;
+    margin-bottom: 20px;
+}
+
+
+.first-img {
+    display: flex;
+    justify-content: flex-end;
+    
+}
