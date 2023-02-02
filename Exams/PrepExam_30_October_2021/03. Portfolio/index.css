@@ -49,3 +49,18 @@ padding: 5px;
     justify-content: flex-end;
     
 }
+
+.first-img img {
+    display: flex;
+    margin: 30px 90px 0px 0px;
+    width: 70%;
+}
+
+.first-text {
+    width: 30%;
+    display: flex;
+    float: left;
+    flex-direction: column;
+    margin: 50px 0px 0px 0px;
+    padding: 20px;
+}
