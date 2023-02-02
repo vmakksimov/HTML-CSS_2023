@@ -26,3 +26,15 @@ body {
     align-items: center;
     padding: 10px;
 }
+
+.first-content {
+    display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: stretch;
+}
+
+.first-header i {
+padding: 5px;
+}
+
