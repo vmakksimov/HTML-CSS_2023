@@ -226,3 +226,7 @@ body {
     padding: 10rem;
 }
 
+.fifth-section img {
+    width: 33%;
+    position: relative;
+}
