@@ -230,3 +230,7 @@ body {
     width: 33%;
     position: relative;
 }
+.fifth-section img:nth-child(1){
+    left: 55px;
+    z-index: 1;
+}
