@@ -238,3 +238,8 @@ body {
     z-index: 2;
    transform: scale(1.5);
 }
+.fifth-section img:nth-child(3){
+    z-index: 1;
+    right: 55px;
+   
+}
