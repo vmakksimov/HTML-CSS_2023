@@ -42,7 +42,8 @@ body {
 .first-section,
 .second-section,
 .third-section,
-.forth-section {
+.forth-section,
+.fifth-section {
     background-color: #EFEFEF;
     margin-bottom: 20px;
 }
@@ -217,4 +218,32 @@ body {
     height: 60px;
     margin-left: 100px;
     margin-top: 0px;
+}
+
+
+.fifth-section {
+    display: flex;
+    justify-content: center;
+    padding: 10rem;
+}
+
+.fifth-section img {
+    width: 33%;
+    position: relative;
+}
+
+
+
+.fifth-section img:nth-child(1){
+    left: 55px;
+    z-index: 1;
+}
+.fifth-section img:nth-child(2){
+    z-index: 2;
+   transform: scale(1.5);
+}
+.fifth-section img:nth-child(3){
+    z-index: 1;
+    right: 55px;
+   
 }
