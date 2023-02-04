@@ -234,3 +234,7 @@ body {
     left: 55px;
     z-index: 1;
 }
+.fifth-section img:nth-child(2){
+    z-index: 2;
+   transform: scale(1.5);
+}
