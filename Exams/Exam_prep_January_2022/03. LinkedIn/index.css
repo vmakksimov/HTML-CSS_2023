@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Grechen+Fuemen&family=Lato:wght@300&family=Montserrat+Subrayada&family=Montserrat:wght@300&family=Moon+Dance&family=Pacifico&family=Poppins:wght@100&family=Raleway:ital,wght@0,100;0,400;0,500;1,400&family=Roboto:wght@100;300;400&display=swap');
+
+html {
+    font-family: 'Roboto', sans-serif;;
+}
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+.main {
+    margin-left: 100px;
+}
+.header {
+    display: flex;
+    margin-top: -20px;
+}
+
+
+
+.first-img img {
+    width: 15%;
+}
+
+.first-register {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    width: 40%;
+}
+
+.first-register li {
+    margin-right: 10px;
+}
+
+.first-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form h1 {
+    font-size: 55px;
+    margin: 0px;
+    color: #2977C9;
+    font-weight: 400;
+}
+
+.form form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.second-img {
+    width: 70%;
+}
+
+#password {
+    text-decoration: none;
+    color: #60666A;
+    margin-bottom: 20px;
+}
+
+#sign{
+    padding: 18px 176px;
+    color: white;
+    background-color: #0A66C2;
+    border-radius: 30px;
+    font-weight: 400px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.first-register li:nth-child(1) > a {
+    background-color: white;
+    padding: 5px 30px;
+    text-decoration: none;
+    color: #9898a7;
+    font-weight: bold;
+}
+
+.first-register li:nth-child(2) > a {
+    border: 2px solid #005EC4;
+    border-radius: 20px;
+    background-color: white;
+    text-decoration: none;
+    padding: 10px 25px;
+    color: #005EC4;
+    font-weight: bold;
+}
+
+#email, #password {
+    width: 58%;
+    padding: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#show {
+    position: relative;
+    left: 50%;
+    bottom: 17%;
+    text-decoration: none;
+    color: grey;
+    font-weight: bold;
+}
+
+#password-show {
+    padding: 0px 15px 20px 0px;
+    text-decoration: none;
+    color: grey;
+}
+
