@@ -198,4 +198,39 @@ html {
     margin-left: 30px;
 }
 
+.fourth-section {
+    display: flex;
+    /* background-color: grey; */
+    padding: 100px;
+    background-color: #FAF9F7;
+}
+
+.forth-content {
+    width: 52%;
+}
+
+.forth-content h2{
+    color: #2977C9;
+    font-size: 49px;
+    font-weight: 400;
+}
+
+.forth-content p {
+    font-size: 40px;
+}
+
+.fourth-section img {
+    width: 37%;
+}
+
+.fifth-section {
+    display: flex;
+    padding: 100px;
+    /* padding: 100px 100px 100px 100px; */
+    align-items: center;
+}
+
+.fifth-content-1 {
+    margin-right: 250px;
+}
 
