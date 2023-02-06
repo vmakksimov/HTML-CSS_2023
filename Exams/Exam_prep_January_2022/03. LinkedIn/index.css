@@ -234,3 +234,91 @@ html {
     margin-right: 250px;
 }
 
+.fifth-content-img-1 {
+    width: 72%;
+}
+
+.fifth-content-1 h2 {
+    font-size: 47px;
+    font-weight: 400;
+}
+
+.fifth-content-1 a {
+    border: 1px solid #686A6B;
+    border-radius: 35px;
+    padding: 16px 54px;
+    color: #686A6B;
+    font-weight: bold;
+    text-align: center;
+}
+
+.fifth-content-img-2 {
+    width: 67%;
+}
+
+.fifth-content-2 h2 {
+    font-size: 44px;
+    font-weight: 400;
+}
+
+.six-section {
+    background-image: url(./images/background.svg);
+    flex-direction: row;
+    margin-top: 20px;
+    background-repeat: no-repeat;
+    height: 85vh;
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+}
+
+.six-section-header {
+    padding: 50px;
+}
+
+.six-section-header button {
+    color: white;
+    background: #2977C9;
+    border-radius: 35px;
+    border: 0px;
+    padding: 15px 19px;
+}
+
+.six-section-header h1 {
+    color: #2977C9;
+    font-size: 46px;
+    width: 53%;
+}
+
+.footer {
+    display: flex;
+    background-color: #FAF9F7;
+    align-content: space-around;
+    justify-content: center;
+}
+
+.logo {
+    width: 17%;
+}
+
+.logo img {
+    width: 60%;
+}
+
+.navigation {
+    display: flex;
+}
+
+.navigation ul {
+    list-style-type: none;
+}
+
+.navigation ul h2 {
+    font-size: 18px;
+}
+
+.navigation ul li {
+    color: #5E6775;
+    line-height: 1.7;
+    font-weight: 500;
+}
