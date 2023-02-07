@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Grechen+Fuemen&family=Lato:wght@300&family=Montserrat+Subrayada&family=Montserrat:wght@300;400&family=Moon+Dance&family=Pacifico&family=Poppins:wght@100&family=Raleway:ital,wght@0,100;0,400;0,500;1,400&family=Roboto:wght@100;300;400&display=swap');
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    background-color: #66B9F8;
+}
+
+.title {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+   
+}
+
+.img {
+    margin: 20px 30px 0px 30px;
+    width: 100%;
+}
+
+.img-1 {
+    margin-bottom: -4px;
+}
+.content {
+    background-color: white;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: 0px 0px 6px 1px #7e817e;
+    padding: 19px;
+}
+
+.img-1 img {
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    box-shadow: 0px 0px 6px 1px #7e817e;
+}
+
+.content h1 {
+    padding: 0px;
+    margin: 0px;
+    color: #ff8c00;
+    font-size: 16px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+.time {
+    color: #939393;
+}
+
+.content a {
+    text-decoration: none;
+    color: #FF960C;
+    font-weight: 700;
+}
