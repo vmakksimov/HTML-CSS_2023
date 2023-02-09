@@ -19,6 +19,10 @@ body {
     box-shadow: 0px 0px 3px 0px #0c0b0b;
 }
 
+h2 {
+    color: #41BEAD;;
+}
+
 .header img {
     width: 6%;
     margin-right: 366px;
@@ -54,6 +58,136 @@ body {
 .first-section p {
     text-align: center;
     color: white;
-    width: 34%;
+    width: 37%;
     margin-bottom: 40px;
 }
+
+.ceo {
+    display: flex;
+    margin: 80px;
+}
+
+.ceo-1, .ceo-2 {
+    display: flex;
+    align-items: flex-start;
+}
+
+.ceo-1 img, .ceo-2 img {
+    width: 21%;
+    border: 7px solid #41BEAD;
+    border-radius: 222px;
+}
+
+.ceo-content{
+    margin-left: 40px;
+}
+
+.ceo-content > p:nth-child(3){
+    width: 65%;
+}
+
+.ceo-content h2 {
+    margin-top: 0px;
+}
+
+.teachers {
+    display: flex;
+    margin: 80px;
+}
+
+.teachers-content-1, .teachers-content-2, .teachers-content-3, .teachers-content-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.teachers-content-1 img, .teachers-content-2 img, .teachers-content-3 img{
+    border: 7px solid #41BEAD;
+    border-radius: 222px;
+
+}
+
+.teachers-content-1 img {
+    width: 36%;
+}
+
+.teachers-content-2 img {
+    width: 54%;
+}
+
+.teachers-content-3 img {
+    width: 49%;
+}
+
+.teachers-content-4 img {
+    width: 68%;
+    border: 7px solid #41BEAD;
+    border-radius: 222px;
+    height: 52%;
+}
+
+.third-section {
+    background-color: #66B9F8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 10px solid #92CDFB;
+    padding: 40px 0px 120px 0px;
+}
+
+.kids h1 {
+    text-align: center;
+    font-size: 31px;
+    color: white;
+}
+
+.kids p {
+    text-align: center;
+    margin-left: 122px;
+    width: 76%;
+    color: white;
+}
+
+.form input {
+    background: transparent;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+.form button {
+    color: white;
+    background-color: #FF9100;
+    border-radius: 30px;
+    padding: 10px 23px;
+    box-shadow: 0px 1px 3px 0px #494848;
+    border: 0px;
+}
+
+.footer {
+    background-color: #565656;
+    display: flex;
+    align-items: baseline;
+    color: white;
+    border-top: 10px solid #919191;
+}
+
+.soft-kids {
+    margin:3px 100px;
+}
+
+.soft-kids h1 {
+    margin: 10px 0px;
+    font-size: 16px;
+}
+
+.soft-kids p, i {
+    margin: 10px 0px;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 1; /* Firefox */
+  }
