@@ -46,4 +46,12 @@
     .blog-news ul {
         flex-direction: column;
     }
+
+    .blog-list {
+        margin: 0px 40px;
+    }
+
+    .blog-list li:nth-child(1){
+        margin-bottom: 36px;
+    }
 }
