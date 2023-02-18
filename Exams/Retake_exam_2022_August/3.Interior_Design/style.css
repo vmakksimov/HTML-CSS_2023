@@ -1,0 +1,142 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Grechen+Fuemen&family=Lato:wght@300&family=Montserrat+Subrayada&family=Montserrat:wght@300;400&family=Moon+Dance&family=Pacifico&family=Poppins:wght@100&family=Raleway:ital,wght@0,100;0,400;0,500;1,400&family=Roboto:wght@100;300;400&display=swap');
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+h1, h2, h3 {
+    font-family: 'Abril Fatface', cursive;
+}
+
+.logo {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.logo-img {
+    display: flex;
+}
+
+.logo-img img {
+    object-fit: cover;
+    height: 70vh;
+    width: 92vh;
+}
+
+.logo-content {
+    position: absolute;
+    border: 1px solid black;
+    margin: 14px;
+    width: 10%;
+    box-shadow: 0.5px 0.5px 12px 1px grey;
+}
+
+.logo-content h2::after {
+    content: '';
+    width: 101px;
+    border: 1px solid white;
+    color: white;
+    display: block;
+    margin-top: 10px;
+}
+
+.logo-content h2 {
+    margin: 13px;
+}
+
+.logo-content p {
+    margin: 11px;
+}
+
+.content {
+    right: 31.4%;
+    position: absolute;
+    top: 18%;
+    width: 11%;
+    text-align: right;
+    background: linear-gradient(90deg, rgba(156,146,138,1) 0%, rgba(190,185,180,1) 42%, rgba(202,200,199,1) 100%);
+    color: #f1eee8;
+    font-size: 11px;
+    padding: 17px;
+    box-shadow: 1px 1px 5px 1px grey;
+}
+
+.services-main {
+    display: flex;
+    position: relative;
+    width: 39.9%;
+    /* justify-content: space-around; */
+    align-content: stretch;
+    left: 30%;
+}
+
+.services {
+    background-color: #F2F0F3;
+}
+
+.numbers {
+    background-color: #BAB1AD;
+    width: 115%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.calc {
+    margin: 28px 0px 0px 20px;
+}
+
+.calc p, .calc h1 {
+    margin: 0px;
+}
+
+.calc h1 {
+    font-size: 50px;
+    color: white;
+    font-weight: lighter;
+}
+
+.services-content {
+    margin: 37px;
+}
+
+.services-content h1 {
+    font-size: 23px;
+}
+
+
+.contact h1 {
+    margin-left: 40px;
+    font-size: 18px;
+    margin-bottom: 0px;
+}
+
+blockquote {
+    display: block;
+    margin: 0px;
+    border: 1px solid #BAB1AD;
+    width: 100%;
+}
+
+.address {
+    list-style-type: none;
+    display: flex;
+    margin: 14px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.address li {
+    margin-right: 10px;
+}
