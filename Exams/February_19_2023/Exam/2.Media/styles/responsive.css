@@ -1,0 +1,72 @@
+@media all and (max-width: 800px) {
+
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    header div {
+        background-image: url('../image/dancing-girl.png');
+        height: 47vh;
+        background-repeat: no-repeat;
+    }
+
+    header div h1 {
+        padding-bottom: 0.5em;
+        width: 27%;
+        font-size: 27px;
+    }
+
+    header div p {
+        font-size: 8px;
+        margin-top: 10px;
+    }
+
+    body {
+        display: inline-block;
+    }
+
+    .nav-options {
+        flex-direction: column;
+        margin-right: 40px;
+    }
+
+    .trainings {
+        flex-direction: column;
+    }
+
+    .trainings div {
+        width: 75%;
+    }
+
+    .instructors-pic {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .classes {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .classes ul {
+        width: 100%;
+        padding: 20px
+    }
+
+    .classes ul li {
+        flex-direction: column;
+        width: 45%;
+    }
+
+    .getInTouch {
+        align-items: unset;
+        flex-direction: column;
+    }
+
+    .site-footer .wrapper {
+        flex-direction: column;
+    }
+}

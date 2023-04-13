@@ -1,0 +1,274 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css');
+
+html {
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.header-items {
+    display: flex;
+    list-style-type: none;
+}
+
+.header-items li {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.front {
+    display: flex;
+    background: #85DCFF;
+    border-top: 0px solid grey;
+    box-shadow: 1px -1px 7px 1px grey;
+}
+
+.front img {
+    width: 28%;
+}
+
+.front-info {
+    padding: 77px;
+    background: #85DCFF;
+}
+
+.front-info h1 {
+    font-size: 30px;
+    margin-left: 15%;
+}
+
+.front-info p {
+    width: 69%;
+    margin-left: 15%;
+}
+
+.donate {
+    border: 1px solid black;
+    background: white;
+    border-radius: 5px;
+    padding: 15px 77px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.front-buttons {
+    margin-left: 15%;
+}
+
+.join {
+    border: 1px solid black;
+    background: black;
+    border-radius: 5px;
+    padding: 15px 77px;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+}
+
+.choices {
+    display: flex;
+}
+
+.middle-header {
+    text-align: center;
+}
+
+.middle-header p{
+    font-weight: bold;
+    text-align: center;
+    font-size: 13px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+
+.middle-header h2 {
+    font-size: 17px;
+}
+
+i {
+    color: #85DCFF;
+    font-size: 103px;
+}
+
+.first-choice {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.first-choice p {
+    width: 73%;
+    text-align: center;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+.first-choice h2 {
+    font-size: 20px;
+}
+
+.middle-middle {
+    display: flex;
+    background: #85DCFF;
+    flex-direction: column;
+    align-items: center;
+    padding: 45px;
+}
+
+.items {
+    display: flex;
+    margin-left: 25%;
+}
+
+.middle-items li {
+    margin-bottom: 10px;
+}
+
+.middle-button {
+    color: white;
+    background: black;
+    border: 0px;
+    border-radius: 5px;
+    padding: 14px 79px;
+    /* margin: 39px; */
+    margin-bottom: 50px;
+}
+
+.middle-items{
+    width: 33%;
+    list-style-type: none;
+}
+
+.middle-after {
+    text-align: center;
+}
+
+.middle-items li i {
+    color: black;
+    font-size: 21px;
+}
+
+.middle-after-images {
+    display: flex;
+
+    justify-content: space-around;
+}
+
+.middle-after-images img {
+    width: 21%;
+    height: 26%;
+    justify-content: space-evenly;
+    /* margin-right: 40px; */
+}
+
+.middle-after-header h2 {
+    font-weight: 900;
+    font-size: 39px;
+}
+
+.content {
+    border: 1px solid #e6e6e6;
+    width: 65%;
+    margin-left: 17%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    text-align: initial;
+    margin-bottom: 20px;
+}
+
+.content h1 {
+    background: #85DCFF;
+    margin: 0px;
+    padding: 20px;
+    text-align: initial;
+    width: 100%;
+    
+}
+
+.content p {
+    font-size: 15px;
+    width: 100%;
+    padding: 16px;
+    font-weight: bold;
+}
+
+.actions {
+    display: flex;
+    margin-top: 7%;
+}
+
+.actions-content {
+    margin: 150px;
+    text-align: initial;
+    /* display: flex; */
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.actions-content input {
+    width: 57%;
+    border: 1px solid #d9d9d9;
+    padding: 14px 8px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.actions img {
+    width: 100%;
+}
+
+.send {
+    width: 44%;
+    color: white;
+    background: black;
+    border: 0px;
+    border-radius: 5px;
+    padding: 16px 38px;
+    font-weight: bold;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.li-items {
+    display: flex;
+    list-style-type: none;
+}
+
+.li-items li i {
+    font-size: 23px;
+    color: black;
+}
+
+.middle-content {
+    margin: 36px;
+}
+
+.work p {
+    font-weight: bold;
+    margin: 40px;
+}

@@ -1,0 +1,68 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Courgette&family=Grechen+Fuemen&family=Lato:wght@300&family=Montserrat+Subrayada&family=Montserrat:wght@300;400&family=Moon+Dance&family=Open+Sans:wght@300;400&family=PT+Sans&family=Pacifico&family=Poppins:wght@100&family=Raleway:ital,wght@0,100;0,400;0,500;1,400&family=Roboto:wght@100;300;400&display=swap');
+  @import url('http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css');
+
+  body {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    background-color: #F6E0B5;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  .main {
+    background-color: #F6E0B5;
+  }
+
+  img {
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+
+  .global {
+    display: flex;
+    margin: 150px;
+    width: 100%;
+  }
+
+  .images-1, .images-2 {
+    width: 20%;
+    margin: 20px;
+  }
+
+  .first-images, .second-images{
+    border: 1px solid black;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    margin-bottom: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    box-shadow: 0px 0px 20px 2px black;
+  }
+
+  .footer {
+    background-color: #66545E;
+    padding: 5px;
+    border-bottom-right-radius: 13px;
+    border-bottom-left-radius: 13px;
+    margin-top: -5px;
+    color: white;
+    font-size: 20px;
+  }
+
+  .footer p {
+    margin: 0px;
+  }
+
+  .category {
+    line-height: 2.5;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .category li i {
+    margin-right: 5px;
+  }
+

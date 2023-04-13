@@ -1,0 +1,75 @@
+.first-section {
+    background-image: /* semi-opaque black overlaid on top of the bg image */ linear-gradient(rgb(0 0 0 / 79%), rgb(0 0 0 / 69%)), /* actual bg image */ url('./image/cover.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 64vh;
+    height: 78vh;
+    background-position: center;
+    background-blend-mode: darken;
+    color: white;
+}
+
+.main {
+    display: flex;
+    margin: 350px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.first-content {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    font-size: 34px;
+    margin-top: 45%;
+    justify-content: center;
+}
+
+.second-section {
+    width: 48vh;
+    height: 78vh;
+    box-shadow: 2px 2px 8px 0px #c2bdbd;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 36px;
+    font-size: 18px;
+    line-height: 1.8;
+    color: #cacaca;
+}
+
+.form label {
+    margin-bottom: 20px;
+}
+
+.form input {
+    border: 0;
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+}
+
+.second-buttons button {
+    border: 0px;
+    border-radius: 28px;
+    background-color: black;
+    padding: 10px 28px;
+    color: white;
+}
+
+.second-buttons a {
+    font-size: 15px;
+    color: grey;
+}
+
+::placeholder{
+    color: #cacaca;
+  opacity: 1;
+}
+

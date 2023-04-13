@@ -1,0 +1,68 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Courgette&family=Grechen+Fuemen&family=Lato:wght@300&family=Montserrat+Subrayada&family=Montserrat:wght@300;400&family=Moon+Dance&family=Pacifico&family=Poppins:wght@100&family=Raleway:ital,wght@0,100;0,400;0,500;1,400&family=Roboto:wght@100;300;400&display=swap');
+
+html, button {
+    font-family: 'Courgette', cursive;
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.header h1 {
+    text-align: center;
+    margin-bottom: 0px;
+}
+.header p {
+    text-align: -webkit-center;
+    position: relative;
+    left: 50px;
+}
+
+.images {
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-start;
+    align-content: flex-end;
+    /* margin: 150px; */
+    margin: 10px 150px;
+}
+
+.image-1 {
+    margin-right: 30px;
+}
+
+img {
+    width: 57vh;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    background: transparent;
+    padding: 0px;
+    margin: 0px;
+}
+
+.image-content {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 4px 5px 20px 0px #ededed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-content h3 {
+    margin: 0px;
+    font-size: 19px;
+}
+
+.image-content p {
+    text-align: center;
+    font-size: 11px;
+}
+
+button {
+    border: 0px;
+    background-color: transparent;
+}

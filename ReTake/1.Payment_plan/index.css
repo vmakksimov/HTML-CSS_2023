@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css');
+
+html {
+    font-family: 'Inter', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url('./image/background.jpg');
+    background-position-y: center;
+    height: h;
+    background-size: cover;
+}
+
+.body img {
+    width: 100%;
+    /* height: 100%; */
+    /* height: 1520px; */
+    height: 110vh;
+    object-fit: cover;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 86%;
+    /* height: 96%; */
+    padding: 0%;
+    margin: 150px 106px;
+
+}
+
+.package-basic,
+.package-standard,
+.premium {
+    border: 1px solid white;
+    background: white;
+    padding: 47px;
+    margin: 20px;
+    width: 100%;
+}
+
+.package-basic {
+    flex-basis: 81%;
+}
+
+.package-standard {
+    flex-basis: 76%;
+}
+
+.premium {
+    flex-basis: 85%;
+
+}
+
+h4 {
+    font-size: 22px;
+    font-weight: 600;
+    margin: 0px;
+}
+
+strong {
+    font-size: 53px;
+}
+.bill {
+    font-size: 11px;
+    color: grey;
+}
+
+.items {
+    list-style-type: none;
+    padding: 1px;
+    line-height: 1.8;
+    /* width: 91%; */
+    font-size: 17px;
+    display: flex;
+    /* width: 123%; */
+    flex-direction: column;
+}
+
+.items li {
+    font-size: 15px;
+}
+
+.btn-package {
+    border: 0px;
+    background: black;
+    color: white;
+    border-radius: 4px;
+    padding: 16px 39px;
+    font-size: 16px;
+    margin-top: 26px;
+}

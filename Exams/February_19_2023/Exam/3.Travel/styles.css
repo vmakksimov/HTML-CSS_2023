@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+
+html {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0px;
+
+}
+
+.first-section {
+    background-image: url('./images/landing-photo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 74vh;
+    /* width: 100%; */
+    /* width: 176vh; */
+    /* background-position-y: center; */
+    background-position: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav li {
+    margin-right: 10px;
+}
+
+.nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav  button{
+    padding: 1px;
+    border: 1px solid;
+    border-radius: 35px;
+    color: white;
+    background-color: #370511
+}
+
+.first-content {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    margin-left: 249px;
+    margin-top: 103px;
+}
+
+.first-info button {
+    padding: 1px;
+    border: 1px solid black;
+    border-radius: 35px;
+    color: white;
+    background-color: #370511
+}
+
+
+.first-title h1 {
+    font-size: 40px;
+    margin: 0px;
+}
+
+.first-title p {
+    font-size: 23px;
+    margin: 0px;
+}
+
+
+
+img {
+    width: 67%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.images-1, .images-2 {
+    display: flex;
+    margin: 150px;
+}
+
+.main-footer {
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-evenly;
+}
+
+.main-footer ul {
+    list-style-type: none;
+}
+.second-header {
+    text-align: center;
+}
+
+.discover {
+    background: white;
+    border-radius: 35px;
+    padding: 10px 34px;
+    font-weight: 800;
+}

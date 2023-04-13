@@ -1,0 +1,74 @@
+/* TODO: Add the responsive styles here */
+
+@media all and (max-width: 600px) {
+    body {
+        display: inline-block;
+    }
+
+    .tm-nav-ul {
+        margin-left: 86px;
+        font-size: 17px;
+    }
+
+    .tm-nav {
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+        /* margin-left: 108px; */
+        flex-direction: column;
+    }
+
+    .placeholder {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tm-header-inner {
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+        margin-bottom: 28px;
+
+
+    }
+
+    .tm-welcome-section {
+        width: 31%;
+        margin: 0px
+    }
+
+    .tm-welcome-section p {
+        margin-left: 32px;
+        /* width: 106%; */
+        font-size: 15px;
+    }
+
+    .tm-section-title {
+        font-size: 1.8rem;
+        font-weight: 400;
+        margin-bottom: 30px;
+        text-align: center;
+        margin-left: 41px;
+        margin-top: 50px;
+    }
+
+    .tm-paging-links {
+        margin-top: 50px;
+        text-align: inherit;
+    }
+
+    .tm-gallery-page {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin: 0px;
+    }
+
+    .tm-description-box {
+        max-width: 100%;
+    }
+
+    .tm-cta-section {
+        width: 100%;
+    }
+}
